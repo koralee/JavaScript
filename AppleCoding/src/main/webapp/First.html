@@ -5,7 +5,17 @@
 <title>안녕하세요</title>
 </head>
 <body>
-<h2>다 사라졌네ㅡㅡ;;다시 해보지 뭐! </h2>
+<div>
+<h2 id = "JustDoIt">다 사라졌네ㅡㅡ;;다시 해보지 뭐!!! </h2>
+<button onclick = "TextChange('화이팅')"> 클 릭 </button>
+</div>
+<script>
+
+function TextChange(word){
+	document.getElementById("JustDoIt").innerHTML=word;
+}
+
+</script>
 
 </body>
-</html> 
+</html>
